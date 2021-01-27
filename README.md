@@ -1,5 +1,5 @@
 # seed-library website
-*Seed library is an institution for sharing of seed in The Netherlands: the main purpose is to disseminate plant seed to the public, propagation and further sharing.* 
+*Seed library is an institution for sharing of plant seed in The Netherlands: the main purpose is to disseminate plant seed to the public, propagation and further sharing.* 
 
 ## Building tools:
 
