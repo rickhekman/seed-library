@@ -1,14 +1,13 @@
+import React from 'react';
+import Map from '../components/Map/'
 
 function HomePage() {
+
   return (
     <div>
-      <h1 className="text-white">
-        Seed Library
-      </h1>
-      <button className="btn">
-        Button
-      </button>
-      <button className="btn btn--black">Button</button>
+      <div>
+        <Map />
+      </div>
     </div>
   )
 }
