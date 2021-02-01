@@ -17,7 +17,7 @@ function Map() {
         className="leaflet-container"
         >
          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url={`https://api.mapbox.com/styles/v1/rickhekman/ckkmr46ig50fh17nwp1o34r9j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoicmlja2hla21hbiIsImEiOiJja2ttdGE0ZnIxdjdkMm9wZ3lvZnF1czdyIn0.ghTn_fCOiyBBxKu1TUHo5g`}
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           />
           {data.features.map(seedlibrary => (
