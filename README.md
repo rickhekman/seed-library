@@ -1,5 +1,9 @@
-# seed-library website
+# seed-library website (in progress)
 *Seed library is a community for sharing of plant seed in The Netherlands: the main purpose is to disseminate plant seed to the public, propagation and further sharing.* 
+
+<div align="center">
+<a href="https://seed-library.vercel.app/">>>Project preview<<</a>
+</div>
 
 ## Building tools:
 
