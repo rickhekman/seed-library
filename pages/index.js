@@ -1,15 +1,13 @@
-import React from 'react';
+import Layout from '../components/Layout'
 import Map from '../components/Map/'
 
-function HomePage() {
+export default function Home() {
 
   return (
+    <Layout>
     <div>
-      <div>
         <Map />
-      </div>
     </div>
+    </Layout>
   )
 }
-
-export default HomePage
