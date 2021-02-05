@@ -17,8 +17,9 @@ function Map() {
         className="leaflet-container"
         >
          <TileLayer
-            url={`https://api.mapbox.com/styles/v1/rickhekman/ckkmr46ig50fh17nwp1o34r9j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoicmlja2hla21hbiIsImEiOiJja2ttdGE0ZnIxdjdkMm9wZ3lvZnF1czdyIn0.ghTn_fCOiyBBxKu1TUHo5g`}
+            url={`https://{s}.tile.jawg.io/jawg-sunny/{z}/{x}/{y}{r}.png?access-token={accessToken}`}
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            accessToken='kHE1YD2q22uXhqhakZczfh7qq8Zrb23gqqno9AJy6urgbTBhZxuoz3m0NMZnk6w4'
           />
           {data.features.map(seedlibrary => (
              <Marker
