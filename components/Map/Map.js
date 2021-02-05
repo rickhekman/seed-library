@@ -5,7 +5,7 @@ import * as data from './seedlibraryData.json';
 
 export const icon = new Icon({
   iconUrl: "/images/seedling.svg",
-  iconSize: [30, 30]
+  iconSize: [35, 35]
 })
 function Map() {
   return(
@@ -19,7 +19,7 @@ function Map() {
          <TileLayer
             url={`https://{s}.tile.jawg.io/jawg-sunny/{z}/{x}/{y}{r}.png?access-token={accessToken}`}
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            accessToken='kHE1YD2q22uXhqhakZczfh7qq8Zrb23gqqno9AJy6urgbTBhZxuoz3m0NMZnk6w4'
+            accessToken='u0zxAgsoNfu6Su1TkxbFzjB1SQzU3mwxg2ocSJ5VBMhwiqdnun3DilcasaVFyxT5'
           />
           {data.features.map(seedlibrary => (
              <Marker
