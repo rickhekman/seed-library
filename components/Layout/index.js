@@ -1,7 +1,15 @@
 import './layout.module.css'
+import Metadata from '../Metadata';
 
-export default function Layout({ children }) {
-  return <div>
-    <main>{children}</main>
-  </div>
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Metadata />
+      <div>
+        <main>{children}</main>
+      </div>
+    </>
+  )
 }
+
+export default Layout;
