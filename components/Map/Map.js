@@ -11,8 +11,8 @@ export const icon = new Icon({
 })
 
 console.log('styles', styles.popuptext)
-function Map() {
-  return(
+const Map = () => {
+  return (
     <div>
       <MapContainer 
         center={[52.080190, 4.310130]} 
@@ -38,18 +38,16 @@ function Map() {
               <Popup>
               <div className={styles.popup}>
                 <h2 className={styles.popuptitle}>
-                {seedlibrary.properties.location_name}
+                  {seedlibrary.properties.location_name}
                 </h2>
                 <p className={styles.popuptext}>
-                {seedlibrary.properties.street}<br />
-                {seedlibrary.properties.zipcode} {seedlibrary.properties.city}<br />
+                  {seedlibrary.properties.street}<br />
+                  {seedlibrary.properties.zipcode} {seedlibrary.properties.city}<br />
                 <Link href={seedlibrary.properties.website}>
                   {seedlibrary.properties.website}
                 </Link>
                 </p>
-              </div>
-               
-                
+              </div> 
               </Popup>
             </Marker>
           ))}
