@@ -1,4 +1,4 @@
-import './layout.module.css'
+import './Layout.module.css'
 import Metadata from '../Metadata';
 
 const Layout = ({ children }) => {
