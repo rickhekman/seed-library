@@ -9,7 +9,7 @@
 
 - [Next.js](https://nextjs.org/) - The React Framework for Production.
 - [Tailwindcss](https://tailwindcss.com/) - A utility-first CSS framework.
-- [react-leaflet](https://react-leaflet.js.org/) - React components for Leaflet maps.
+- [React-leaflet](https://react-leaflet.js.org/) - React components for Leaflet maps.
 
 ## License:
 [THE BEER-WARE LICENSE](https://en.wikipedia.org/wiki/Beerware)

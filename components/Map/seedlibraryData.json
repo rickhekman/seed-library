@@ -30,6 +30,51 @@
         "type": "Point",
         "coordinates": [52.073980, 4.307760]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "library_ID": "03",
+        "location_name": "Pluk!",
+        "street": "Loosduinse Hoofdstraat 1184 a",
+        "zipcode": "2552 AV",
+        "city": "Den Haag",
+        "website": "https://www.plukdenhaag.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.050280, 4.228950]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "library_ID": "04",
+        "location_name": "See Lab",
+        "street": "Duinstraat 55",
+        "zipcode": "2584 AW",
+        "city": "Den Haag",
+        "website": "http://www.seelab.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.102200, 4.272670]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "library_ID": "05",
+        "location_name": "De Kornoelje",
+        "street": "Kornoeljestraat 117",
+        "zipcode": "2564 LP",
+        "city": "Den Haag",
+        "website": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.066521, 4.259950]
+      }
     }
   ]
 }
