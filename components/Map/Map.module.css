@@ -12,15 +12,15 @@
     ;
     &title { 
       @apply 
-      text-base
+        text-base
       text-green-medium
-      font-bold
-      ;
+        font-bold
+        ;
     }
     &text{
       @apply
-      text-sm
-      text-left
+        text-sm
+        text-left
       ;
     }
     a {
