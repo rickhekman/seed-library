@@ -1,0 +1,30 @@
+.container {
+  @apply w-full h-screen;
+}
+
+.popup {
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-evenly
+    space-y-2
+    ;
+    &title { 
+      @apply 
+      text-base
+      text-green-medium
+      font-bold
+      ;
+    }
+    &text{
+      @apply
+      text-sm
+      text-left
+      ;
+    }
+    a {
+      @apply
+      text-green-medium;
+    }   
+}
