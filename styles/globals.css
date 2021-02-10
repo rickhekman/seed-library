@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 @import './components/buttons.css';
+
+html,
+body {
+  @apply bg-background;
+}

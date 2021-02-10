@@ -10,9 +10,7 @@
     xl:h-16
     p-2
     shadow-md
-    bg-grey-light
-    border-b
-    border-green-light
+    bg-background
     items-center
     ;
 }
