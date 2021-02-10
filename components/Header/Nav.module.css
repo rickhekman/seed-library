@@ -1,0 +1,21 @@
+.nav {
+  @apply
+  flex
+  flex-row
+  mr-4
+  ;
+  ul {
+    @apply
+    flex
+    list-none
+    ;
+  }
+  a {
+    @apply
+    text-lg
+    mr-4
+    text-green
+    hover:text-green-light
+    ;
+  }
+}
