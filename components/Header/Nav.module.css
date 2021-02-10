@@ -7,7 +7,6 @@
   ul {
     @apply
     flex
-    list-none
     ;
   }
   a {
