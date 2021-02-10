@@ -1,4 +1,5 @@
-import styles from './Header.module.css'
+import styles from './Header.module.css';
+import Nav from './Nav';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       </div>
     
     <div>
-      <button className="btn btn--black">Locations</button>
+      <Nav />
     </div>
     </div>
   )
