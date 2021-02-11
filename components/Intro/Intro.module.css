@@ -9,8 +9,19 @@
 
 .image {
   @apply
-  mt-32
+  mt-28
   mx-4
   md:mx-6
+  ;
+}
+
+.slogan {
+  @apply
+  mt-6
+  text-center
+  text-sm
+  md:text-lg
+  italic
+  text-green-dark
   ;
 }

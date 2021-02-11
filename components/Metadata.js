@@ -8,7 +8,15 @@ const Metadata = () => (
       type: 'website',
       url: 'https://seed-library.vercel.app/',
       title: "Seed Library",
-      description: "A community for sharing of plant seed in The Netherlands"
+      description: "A community for sharing plant seed in The Netherlands",
+      images: [
+        {
+          url: '%PUBLIC_URL%/images/seedlibrary.jpg',
+          width: 900,
+          height: 720,
+          alt: 'Seedlibrary image'
+        }
+      ]
     }}
    />
    <Head>
