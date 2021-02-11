@@ -11,7 +11,7 @@ const Metadata = () => (
       description: "A community for sharing plant seed in The Netherlands",
       images: [
         {
-          url: '%PUBLIC_URL%/images/seedlibrary.jpg',
+          url: '/images/seedlibrary.jpg',
           width: 900,
           height: 720,
           alt: 'Seedlibrary image'
