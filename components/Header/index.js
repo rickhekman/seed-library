@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <div>
-        <h1>
+        <h2>
           Seed Library
-        </h1>
+        </h2>
       </div>
     
     <div>

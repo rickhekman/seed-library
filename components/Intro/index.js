@@ -13,6 +13,11 @@ const Intro = () => {
         class="rounded-lg"
       />
       </div>
+      <div>
+        <h1 className={styles.slogan}>
+        Our purpose is to disseminate plant seed to the public, propagation and further sharing.
+        </h1>
+      </div>
     </div>
   )
 }
