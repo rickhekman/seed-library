@@ -11,10 +11,10 @@ const Metadata = () => (
       description: "A community for sharing plant seed in The Netherlands",
       images: [
         {
-          url: 'https://seed-library.vercel.app/images/seedlibrary.jpg',
-          width: 900,
-          height: 720,
-          alt: 'Slogan photo'
+          url: 'https://seed-library.vercel.app/images/seedlibrary-meta.jpg',
+          width: 1200,
+          height: 627,
+          alt: 'Seedlibrary photo'
         }
       ]
     }}
