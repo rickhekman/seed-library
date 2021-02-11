@@ -10,7 +10,6 @@ export const icon = new Icon({
   iconSize: [35, 35]
 })
 
-console.log('styles', styles.popuptext)
 const Map = () => {
   return (
     <div>
