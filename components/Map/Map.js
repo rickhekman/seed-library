@@ -8,7 +8,7 @@ import Link from 'next/link';
 export const icon = new Icon({
   iconUrl: "/images/seedling.svg",
   iconSize: [35, 35]
-})
+});
 
 const Map = () => {
   return (
@@ -53,6 +53,6 @@ const Map = () => {
       </MapContainer>
     </div>
   )
-}
+};
 
-export default Map
+export default Map;

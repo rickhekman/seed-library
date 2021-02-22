@@ -9,8 +9,15 @@
     lg:h-14
     xl:h-16
     p-2
-    shadow-md
     bg-background
     items-center
     ;
+
+    &title {
+      @apply
+      cursor-pointer
+      text-green-dark
+      text-xl
+      ;
+    }
 }
